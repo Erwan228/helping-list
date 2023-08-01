@@ -2,10 +2,10 @@
   <div class="home">
     <div class="overView">
       <div class="parts">
-        <p>To-do</p>
+        <router-link to="/list">To-do</router-link>
       </div>
       <div class="parts">
-        <p>Mat</p>
+        <router-link to="/mat">Mat</router-link>
       </div>
     </div>
   </div>
