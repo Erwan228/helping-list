@@ -1,0 +1,3 @@
+<template>
+    gjør ting
+</template>
