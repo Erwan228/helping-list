@@ -8,7 +8,10 @@
     <h2>To do</h2>
     <div v-if="tasks.length" class="toDoTasks">
       <div v-for="task in tasks">
-        <p>{{ task.task }} <input type="checkbox" /></p>
+        <div class="task">
+          <label>{{ task.task }}</label><input type="checkbox" />
+        </div>
+        <hr>
         
       </div>
     </div>
@@ -34,5 +37,17 @@ export default {
 <style scoped>
 .list {
   border: solid blue 10px;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.task {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: larger;
+
 }
 </style>
