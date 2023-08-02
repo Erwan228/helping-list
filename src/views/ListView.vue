@@ -6,8 +6,11 @@
   </nav>
   <div class="list">
     <h2>To do</h2>
-    <div class="toDoTasks">
-
+    <div v-if="tasks.length" class="toDoTasks">
+      <div v-for="task in tasks">
+        <p>{{ task.task }} <input type="checkbox" /></p>
+        
+      </div>
     </div>
   </div>
 </template>

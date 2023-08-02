@@ -7,7 +7,7 @@
             "task": "Handle", "done": false
         },
         {
-            "task": "game", "done": false
+            "task": "Game", "done": false
         }
     ]
 }
