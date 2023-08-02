@@ -5,15 +5,20 @@
     <router-link to="/mat">Mat</router-link>
   </nav>
   <div class="list">
-    <h2>To do</h2>
-    <div v-if="tasks.length" class="toDoTasks">
-      <div v-for="task in tasks">
-        <div class="task">
-          <label>{{ task.task }}</label><input type="checkbox" />
+    <div class="toDoTasks">
+      <h2>To do</h2>
+      <div v-if="tasks.length" >
+        <div v-for="task in tasks">
+          <div class="task">
+            <label>{{ task.task }}</label><input type="checkbox" />
+          </div>
+          <hr>
         </div>
-        <hr>
-        
       </div>
+    </div>
+    <div class="doneTasks">
+      <h2>Done</h2>
+
     </div>
   </div>
 </template>
@@ -41,6 +46,14 @@ export default {
   margin-right: 30%;
   padding-left: 2%;
   padding-right: 2%;
+}
+
+.toDoTasks {
+  color: black;
+}
+
+.doneTasks {
+  color: #c3c3c3;
 }
 
 .task {
