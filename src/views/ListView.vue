@@ -5,7 +5,7 @@
     <router-link to="/mat">Mat</router-link>
   </nav>
   <div class="list">
-    <div class="toDoTasks">
+    <div class="toDoTasksList">
       <h2>To do</h2>
       <div v-if="tasks.length" >
         <div v-for="task in tasks">
@@ -16,7 +16,7 @@
         </div>
       </div>
     </div>
-    <div class="doneTasks">
+    <div class="doneTasksList">
       <h2>Done</h2>
 
     </div>
@@ -48,11 +48,11 @@ export default {
   padding-right: 2%;
 }
 
-.toDoTasks {
+.toDoTasksList {
   color: black;
 }
 
-.doneTasks {
+.doneTasksList {
   color: #c3c3c3;
 }
 

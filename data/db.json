@@ -8,7 +8,10 @@
         },
         {
             "task": "Game", "done": false
-        },
+        }
+        
+    ],
+    "doneTasks": [
         {
             "task": "Mestre koding 100%", "done": true
         }
