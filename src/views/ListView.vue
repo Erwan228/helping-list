@@ -27,6 +27,7 @@
         </div>
       </div>
     </div>
+    <button>New task</button>
   </div>
 </template>
 <script>
@@ -76,5 +77,12 @@ export default {
   justify-content: space-between;
   font-size: larger;
 
+}
+
+button {
+  margin-top: 50px;
+  border-radius: 4cm;
+  border: solid blue;
+  background-color: #c0e5f1;
 }
 </style>

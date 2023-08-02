@@ -29,7 +29,7 @@ export default {
 }
 .parts {
   border: solid 1px black;
-  background: rgb(192, 229, 241);
+  background: #c0e5f1;
   margin: 50px 70px;
 }
 </style>
