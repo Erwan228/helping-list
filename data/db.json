@@ -1,0 +1,13 @@
+{
+    "tasks": [
+        {
+            "task": "Oppvask", "done": false
+        },
+        {
+            "task": "Handle", "done": false
+        },
+        {
+            "task": "game", "done": false
+        }
+    ]
+}
