@@ -5,7 +5,12 @@
     <router-link to="/mat">Mat</router-link>
   </nav>
   <div class="interface">
-<div></div>
+    <div>
+      <router-link class="inInterface" to="/mat/middag">Middag</router-link>
+    </div>
+    <div>
+      <router-link class="inInterface" to="/mat/handleliste">Handleliste</router-link>
+    </div>
   </div>
 </template>
 
