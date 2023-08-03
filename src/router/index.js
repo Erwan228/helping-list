@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ListView from '../views/ListView.vue'
 import MatView from '../views/MatView.vue'
+import MiddagView from '../views/matviews/MiddagView.vue'
+import HandlelisteView from '../views/matviews/HandlelisteView.vue'
 
 const routes = [
   {
@@ -18,6 +20,16 @@ const routes = [
     path: '/mat',
     name: 'mat',
     component: MatView
+  },
+  {
+    path: '/mat/middag',
+    name: 'middag',
+    component: MiddagView,
+  },
+  {
+    path: '/mat/handleliste',
+    name: 'handlelist',
+    component: HandlelisteView,
   }
 ]
 

@@ -5,7 +5,7 @@
     <router-link to="/mat">Mat</router-link>
   </nav>
   <div class="interface">
-
+<div></div>
   </div>
 </template>
 
