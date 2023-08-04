@@ -26,10 +26,21 @@ export default {
 .overView {
   border: solid blue;
   background: cornflowerblue;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20%;
 }
+
 .parts {
+  margin: 7px 0;
+}
+.parts a{
   border: solid 1px black;
   background: #c0e5f1;
   margin: 50px 70px;
+  padding: 1px 20%;
+  text-decoration: none;
+  color: black;
+  font-size: large;
 }
 </style>
