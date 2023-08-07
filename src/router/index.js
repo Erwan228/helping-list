@@ -4,6 +4,7 @@ import ListView from '../views/ListView.vue'
 import MatView from '../views/MatView.vue'
 import MiddagView from '../views/matviews/MiddagView.vue'
 import HandlelisteView from '../views/matviews/HandlelisteView.vue'
+import oppskriftView from '@/views/matviews/oppskriftView.vue'
 
 const routes = [
   {
@@ -30,6 +31,11 @@ const routes = [
     path: '/mat/handleliste',
     name: 'handlelist',
     component: HandlelisteView,
+  },
+  {
+    path: '/mat/middag/:id',
+    name: 'oppskrift',
+    component: oppskriftView
   }
 ]
 
