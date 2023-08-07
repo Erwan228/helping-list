@@ -33,8 +33,8 @@ const routes = [
     component: HandlelisteView,
   },
   {
-    path: '/mat/middag/:id',
-    name: 'oppskrift',
+    path: '/mat/middag/oppskrift/:id',
+    name: 'oppskriftView',
     component: oppskriftView
   }
 ]

@@ -1,14 +1,14 @@
 <template>
-    <div class="oppskriftsListe">
-        <div v-if="oppskrifter.length">
-            <div v-for="oppskirft in oppskrifter">
-                <p>{{ oppskirft.rett }}</p>
+    <div v-if="oppskrifter.length">
+            <div v-for="oppskrift in oppskrifter" :key="oppskrift.id" class="oppskrift">
+                <router-link :to="{ name: 'oppskriftView', params: {id: oppskrift.id} }">
+                <p>{{ oppskrift.rett }}</p>
+            </router-link>
             </div>
         </div>
         <div v-else>
             <p>Loading...</p>
         </div>
-    </div>
     
 </template>
 
