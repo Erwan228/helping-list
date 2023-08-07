@@ -1,6 +1,5 @@
 <template>
-    dust <br>
-    tired old street
+    
 </template>
 
 <script>
