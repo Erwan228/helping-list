@@ -18,16 +18,16 @@
     ],
     "oppskrifter": [
         {
-            "rett": "Pasta med saus", "beskrivelse": "Kok opp noe pasta, og server med pastasau. Stek gjerne opp noe kjøtt eller annet godt å ha oppi retten din", "vegetar": true, "ingredienser": ["pasta", "pastasaus"]
+            "rett": "Pasta med saus", "beskrivelse": "Kok opp noe pasta, og server med pastasau. Stek gjerne opp noe kjøtt eller annet godt å ha oppi retten din", "vegetar": true, "ingredienser": ["pasta", "pastasaus"], "id": 1
         },
         {
-            "rett": "Makaronigryte", "beskrivelse": "I en gryte kok opp en boks tomatpuré, en boks matfløte og en halv dl vann. Skjær opp en pakke kjøttpølse og tilsett det til sausen sammen med en boks mais, og småkok i 5 min. Hell over 3dl makaroni og bland.", "vegetar": false, "ingredienser": ["makaroni", "tomatpuré", "matfløte", "vann", "mais", "kjøttpølse"]
+            "rett": "Makaronigryte", "beskrivelse": "I en gryte kok opp en boks tomatpuré, en boks matfløte og en halv dl vann. Skjær opp en pakke kjøttpølse og tilsett det til sausen sammen med en boks mais, og småkok i 5 min. Hell over 3dl makaroni og bland.", "vegetar": false, "ingredienser": ["makaroni", "tomatpuré", "matfløte", "vann", "mais", "kjøttpølse"], "id": 2
         },
         {
-            "rett": "Fiskegrateng", "beskrivelse": "Lag en hvitsaus, kok opp makaroni og skjær opp fisk i biter. bland dette sammen i en ildfast form og tilsett revet ost. Gratiner", "vegetar": false, "ingredienser": ["makaroni", "fisk", "melk", "mel", "smør", "ost"]
+            "rett": "Fiskegrateng", "beskrivelse": "Lag en hvitsaus, kok opp makaroni og skjær opp fisk i biter. bland dette sammen i en ildfast form og tilsett revet ost. Gratiner", "vegetar": false, "ingredienser": ["makaroni", "fisk", "melk", "mel", "smør", "ost"], "id": 3
         },
         {
-            "rett": "Tacoburger", "beskrivelse": "Lag en hamburger ut av tacokjøttdeig. Anrett burgeren med tacoburgere, salsa, guacoamole og nachochips", "vegetar": false, "ingredienser": ["hamburgerbrød", "kjøttdeig", "tacokrydder", "tomat", "rødløk", "jalapenos", "koriander", "avokado", "lime juice", "nachochips"]
+            "rett": "Tacoburger", "beskrivelse": "Lag en hamburger ut av tacokjøttdeig. Anrett burgeren med tacoburgere, salsa, guacoamole og nachochips", "vegetar": false, "ingredienser": ["hamburgerbrød", "kjøttdeig", "tacokrydder", "tomat", "rødløk", "jalapenos", "koriander", "avokado", "lime juice", "nachochips"], "id": 4
         }
     ]
 }
