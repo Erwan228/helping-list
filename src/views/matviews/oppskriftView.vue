@@ -1,5 +1,5 @@
 <template>
-    <modal v-if="showModal1" @close="toggleShowModal1">
+    <modal v-if="showModal" @close="toggleShowModal">
         <template>
             <p>LOL wouldn't that be nice if it worked</p>
             <p>Come back later</p>
@@ -16,11 +16,11 @@
 <div v-else>
     <p>Loading...</p>
 </div>
-<button @click="toggleShowModal1">Legg til i handleliste</button>
+<button @click="toggleShowModal">Legg til i handleliste</button>
 </template>
 
 <script>
-import Modal from '@/components/Modal.vue';
+import Modal from '@/components/ModaladdToShopList.vue';
 
 export default {
     components: { Modal },
@@ -28,12 +28,12 @@ export default {
         return{
             oppskrift: null,
             id: this.$route.params.id,
-            showModal1: false,
+            showModal: false,
         }
     },
     methods: {
         toggleShowModal1(){
-            this.showModal1 = !this.showModal1
+            this.showModal = !this.showModal
         }
     },
     mounted(){
