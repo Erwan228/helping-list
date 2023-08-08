@@ -1,8 +1,8 @@
 <template>
     <div class="backdrop" @click.self="closeModal">
         <div class="modal">
-            <p>LOL wouldn't that be nice if it worked</p>
-            <p>Come back later</p>
+            <p>I haven't actually made this function</p>
+            <p>Please, don't make work even more. Just close this</p>
         </div>
     </div>
 </template>
