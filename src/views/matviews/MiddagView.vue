@@ -6,7 +6,7 @@
                 <p>{{ oppskrift.rett }}</p>
             </router-link>
             </div>
-            <button @click="toggleShowModal">Legg til rett</button>
+            <button class="addButton" @click="toggleShowModal">Legg til rett</button>
         </div>
         <div v-else>
             <p>Loading...</p>

@@ -27,7 +27,7 @@
         </div>
       </div>
     </div>
-    <button>New task</button>
+    <button class="addButton">New task</button>
   </div>
 </template>
 <script>

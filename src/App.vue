@@ -31,4 +31,11 @@ nav a.router-link-exact-active {
 * {
   user-select: none;
 }
+
+.addButton{
+  margin-top: 50px;
+  border-radius: 4cm;
+  border: solid blue;
+  background-color: #c0e5f1;
+}
 </style>

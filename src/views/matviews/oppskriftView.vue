@@ -16,7 +16,7 @@
 <div v-else>
     <p>Loading...</p>
 </div>
-<button @click="toggleShowModal">Legg til i handleliste</button>
+<button class="addButton" @click="toggleShowModal">Legg til i handleliste</button>
 </template>
 
 <script>
