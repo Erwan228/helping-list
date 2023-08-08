@@ -3,14 +3,14 @@
     <div v-if="oppskrifter.length" class="list">
             <div v-for="oppskrift in oppskrifter" :key="oppskrift.id" class="oppskrift">
                 <router-link :to="{ name: 'oppskriftView', params: {id: oppskrift.id} }">
-                <p>{{ oppskrift.rett }}</p>
+                <p>{{ oppskrift.rett }}</p><div><span></span></div>
             </router-link>
-            </div>
-            <button class="addButton" @click="toggleShowModal">Legg til rett</button>
         </div>
-        <div v-else>
-            <p>Loading...</p>
-        </div>
+        <button class="addButton" @click="toggleShowModal">Legg til rett</button>
+    </div>
+    <div v-else>
+        <p>Loading...</p>
+    </div>
     
 </template>
 
@@ -48,5 +48,19 @@ export default {
   padding-left: 2%;
   padding-right: 2%;
   padding-bottom: 2%;
+}
+
+.oppskrift {
+    padding-top: 20px;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    font-size: larger;
+    border-bottom: solid 1px black;
+}
+.oppskrift a{
+    text-decoration: none;
+    color: black;
+    align-self: flex-start;
 }
 </style>
