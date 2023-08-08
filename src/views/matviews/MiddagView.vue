@@ -1,6 +1,6 @@
 <template>
     <Modal v-if="showModal" @close="toggleShowModal"/>
-    <div v-if="oppskrifter.length">
+    <div v-if="oppskrifter.length" class="list">
             <div v-for="oppskrift in oppskrifter" :key="oppskrift.id" class="oppskrift">
                 <router-link :to="{ name: 'oppskriftView', params: {id: oppskrift.id} }">
                 <p>{{ oppskrift.rett }}</p>
@@ -41,5 +41,12 @@ export default {
 </script>
 
 <style scoped>
-
+.list {
+  border: solid blue 10px;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+}
 </style>
