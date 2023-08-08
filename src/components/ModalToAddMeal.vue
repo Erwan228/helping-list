@@ -2,7 +2,7 @@
     <div class="backdrop" @click.self="closeModal">
         <div class="modal">
             <p>I haven't actually made this function</p>
-            <p>Please, don't make work even more. Just close this</p>
+            <p>Please, don't give me more work. Just close this</p>
         </div>
     </div>
 </template>
