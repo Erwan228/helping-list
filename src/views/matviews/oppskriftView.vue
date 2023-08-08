@@ -1,4 +1,10 @@
 <template>
+    <modal v-if="showModal1" @close="toggleShowModal1">
+        <template>
+            <p>LOL wouldn't that be nice if it worked</p>
+            <p>Come back later</p>
+        </template>
+    </modal>
 <div v-if="oppskrift" class="oppskrift">
     <h2>{{ oppskrift.rett }}</h2>
     <p>{{ oppskrift.beskrivelse }}</p>
@@ -10,15 +16,24 @@
 <div v-else>
     <p>Loading...</p>
 </div>
-<button >Legg til i handleliste</button>
+<button @click="toggleShowModal1">Legg til i handleliste</button>
 </template>
 
 <script>
+import Modal from '@/components/Modal.vue';
+
 export default {
+    components: { Modal },
     data(){
         return{
             oppskrift: null,
-            id: this.$route.params.id
+            id: this.$route.params.id,
+            showModal1: false,
+        }
+    },
+    methods: {
+        toggleShowModal1(){
+            this.showModal1 = !this.showModal1
         }
     },
     mounted(){
