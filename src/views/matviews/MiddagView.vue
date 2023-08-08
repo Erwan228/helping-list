@@ -1,5 +1,6 @@
 <template>
     <Modal v-if="showModal" @close="toggleShowModal"/>
+    <h2>Middager</h2>
     <div v-if="oppskrifter.length" class="list">
             <div v-for="oppskrift in oppskrifter" :key="oppskrift.id" class="oppskrift">
                 <router-link :to="{ name: 'oppskriftView', params: {id: oppskrift.id} }">

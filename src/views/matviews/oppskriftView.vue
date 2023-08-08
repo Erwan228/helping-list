@@ -32,7 +32,7 @@ export default {
         }
     },
     methods: {
-        toggleShowModal1(){
+        toggleShowModal(){
             this.showModal = !this.showModal
         }
     },
