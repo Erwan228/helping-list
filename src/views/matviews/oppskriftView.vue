@@ -10,15 +10,13 @@
 <div v-else>
     <p>Loading...</p>
 </div>
-<button @click="this.showLol = true">Legg til i handleliste</button>
-<p v-if="showLol">Lol</p>
+<button >Legg til i handleliste</button>
 </template>
 
 <script>
 export default {
     data(){
         return{
-            showLol: false,
             oppskrift: null,
             id: this.$route.params.id
         }
