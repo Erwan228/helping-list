@@ -38,3 +38,22 @@ export default{
     },
 }
 </script>
+
+<style scoped>
+.shoppingList{
+    border: solid blue 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+
+.ting{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    border-bottom: solid 1px black;
+}
+</style>
