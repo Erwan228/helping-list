@@ -1,8 +1,12 @@
 <template>
     <div class="backdrop" @click.self="closeModal">
         <div class="modal">
-            <p>I haven't actually made this function</p>
-            <p>Please, don't give me more work. Just close this</p>
+            <h3>Legg inn ny rett</h3>
+            <input type="text"><label>Navn</label><br>
+            <input type="text"><label>Beskrivelse</label><br>
+            <input type="text"><label>Ingredienser</label>
+            <p>Ingredienser:</p>
+            <li></li>
         </div>
     </div>
 </template>

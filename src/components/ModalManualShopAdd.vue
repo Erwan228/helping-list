@@ -1,7 +1,9 @@
 <template>
     <div class="backdrop" @click.self="closeModal">
         <div class="modal">
-            <p>databehandling ikke startet</p>
+            <p>Skriv inn ting som skal kjøpes</p>
+            <input type="text">
+            <button class="addButton">Legg til</button>
         </div>
     </div>
 </template>

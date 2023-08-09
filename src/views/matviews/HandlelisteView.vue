@@ -1,9 +1,10 @@
 <template>
     <Modal v-if="showModal" @close="toggleShowModal"/>
     <h2>Handleliste</h2>
-    <div v-if="tingÅHandle.length" class="shoppingList" >
+    <div v-if="tingÅHandle.length" class="shoppingList">
+        <button>Tøm liste</button>
         <div v-for="ting in tingÅHandle" class="ting">
-            <label>{{ ting }}</label><input type="checkbox" />
+            <label>{{ ting }}</label><input type="checkbox" /><button>slett</button>
         </div>
         <button class="addButton" type="button" @click="toggleShowModal">Legg til ting</button>
     </div>

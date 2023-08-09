@@ -1,7 +1,9 @@
 <template>
     <div class="backdrop" @click.self="closeModal">
-        <div class="modal" @click.self="closeModal">
-            <p>Alle ingredienser lagt til i handleliste</p>
+        <div class="modal">
+            <h3>Ny oppgave</h3>
+            <input type="text">
+            <button class="addButton">Legg til</button>
         </div>
     </div>
 </template>
