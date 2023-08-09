@@ -3,7 +3,7 @@
         <div class="modal">
             <h3>Ny oppgave</h3>
             <input type="text">
-            <button class="addButton">Legg til</button>
+            <button class="addButton" @click="closeModal">Legg til</button>
         </div>
     </div>
 </template>

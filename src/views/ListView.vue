@@ -1,4 +1,5 @@
 <template>
+<Modal v-if="showModal" @close="toggleShowModal"></Modal>
     <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/list">To-Do</router-link> |
@@ -27,16 +28,20 @@
         </div>
       </div>
     </div>
-    <button class="addButton">New task</button>
+    <button class="addButton" @click="toggleShowModal">New task</button>
   </div>
 </template>
 <script>
+import Modal from '@/components/ModalAddTask.vue'
+
 export default {
     name: "ListView",
+    components: { Modal },
     data() {
       return{
         tasks: [],
         doneTasks: [],
+        showModal: false,
       }
     },
     mounted(){
@@ -49,6 +54,11 @@ export default {
       .then(res => res.json())
       .then(data => this.doneTasks = data)
       .catch(err => console.log(err.message))
+    },
+    methods: {
+      toggleShowModal(){
+        this.showModal = !this.showModal
+      }
     }
   }
 </script>
