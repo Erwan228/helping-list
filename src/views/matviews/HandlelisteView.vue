@@ -4,6 +4,7 @@
         <div v-for="ting in tingÅHandle" class="ting">
             <label>{{ ting }}</label><input type="checkbox" />
         </div>
+        <button class="addButton" type="button">Legg til ting</button>
     </div>
     <div v-else>
         <p>Loading...</p>
